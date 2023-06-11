@@ -1,0 +1,37 @@
+#container-global{
+    text-align: center;
+}
+.inactive{
+    display: none;
+}
+.divTask{
+    background: gray;
+    margin: auto;
+    height: 240px;
+    padding: 8px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.divTask input{
+    margin: 10px;
+}
+.divTask div{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.divTask button{
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+button{
+    cursor: pointer;
+}
+.input-description{
+    height: 45px;
+}
+.description-options{
+    flex-direction: column;
+}
