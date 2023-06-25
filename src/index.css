@@ -35,3 +35,17 @@ button{
 .description-options{
     flex-direction: column;
 }
+#task-done{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.divDone {
+    width: 250px;
+    background: gray;
+    color:white;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+}
